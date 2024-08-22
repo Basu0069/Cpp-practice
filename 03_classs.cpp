@@ -19,7 +19,10 @@ void getData(){
 };
 
 
-int main(){
+// int main(){
 
-    return o;
-}
+//     return o;
+// }
+
+
+#include<bits/stdc++.h>
