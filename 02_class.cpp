@@ -53,7 +53,49 @@
 
 
 
+// // You are using GCC
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     string name;
+//     cin>>name;
+//     char a;
+//     cin>>a;
+//     int count=0;
+//     for(int i=0;i<name.length();i++){
+//         if(name[i]==a){
+//             // count++;
+//             cout<<name[i];
+//         }
+//     };
+    
+// // cout<<"The letter appears that times "<<count;
+// }
 
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     int arr[n];
+//     for(int i=0;i<n;i++){
+//         cin>>arr[i];
+//     }
+    
+    // int brr[n];
+    // for(int i=0;i<n;i++){
+    //     cin>>brr[i];
+    // }
+ 
+    // for(int i=0;i<n;i++){
+    //     cout<<arr[i]<<" ";
+    // }
+    
+    // for(int i=0;i<n;i++){
+    //     cout<<brr[i];
+    // }
+    
+}
 
 
 
