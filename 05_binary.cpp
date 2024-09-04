@@ -126,4 +126,4 @@
  
 
 arr[i]<arr[i+1]
-arr[i] & ar
+arr[i] & arr[]
