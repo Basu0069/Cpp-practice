@@ -10,6 +10,7 @@ for(int i=0;i<n;i++){
     int element;
     cin>>element;
     a.push_back(element);
+push_heap(a.begin(),a.end());
 }
 cout<<endl;
 
@@ -20,7 +21,20 @@ for(int i=0;i<a.size();i++){
 cout<<endl;
 
 // max heap
-make_heap(a.begin(),a.end());
+push_heap(a.begin(),a.end());
+
+
+// for(int i=0;i<a.size();i++){
+
+// }
+
+
+
+for(auto i: a){
+    cout<<i <<" ";
+}cout<<endl;
+
+
 for(auto i: a){
     cout<<i <<" ";
 }cout<<endl;
@@ -29,12 +43,12 @@ for(auto i: a){
 
 
 // min heap
-make_heap(a.begin(),a.end(),greater<int>());
-for(auto i: a){
-    cout<<i<<" ";
-}
+// make_heap(a.begin(),a.end(),greater<int>());
+// for(auto i: a){
+//     cout<<i<<" ";
+// }
 
-cout<<endl;
+// cout<<endl;
 
 
 
